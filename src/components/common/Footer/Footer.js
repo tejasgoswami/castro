@@ -3,7 +3,7 @@ import Logo from "../../../assets/images/footer-logo.png";
 
 class Footer extends Component {
   render() {
-    return <div><footer className="main-footer">
+    return <><footer className="main-footer">
       <div className="footer-top">
         <div className="auto-container">
           <div className="row clearfix">
@@ -75,7 +75,7 @@ class Footer extends Component {
                     </div>
                     <div className="widget-content">
                       <p>4708 Ruecker Wall, Kassandratown, HI 97729</p>
-                      <form action="https://azim.commonsupport.com/Castro/contact.html" method="post" class="newsletter-form"Name>
+                      <form action="https://azim.commonsupport.com/Castro/contact.html" method="post" className="newsletter-form"Name>
                         <div className="form-group">
                           <input type="email" name="email" placeholder="Enter your email" required="" />
                             <button type="submit" className="theme-btn-two">Subscribe</button>
@@ -102,7 +102,7 @@ class Footer extends Component {
           </div>
         </div>
       </div>
-    </footer></div>;
+    </footer></>;
   }
 }
 

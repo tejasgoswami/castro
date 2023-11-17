@@ -18,9 +18,9 @@ function App() {
     <BrowserRouter>
       <HttpApiServiceProvider>
         <APIServiceProvider>
-          <div className="App">
+          <div className="boxed_wrapper">
             <Header />
-            <div>{getRoutes()}</div>
+            {getRoutes()}
             <Footer />
           </div>
         </APIServiceProvider>

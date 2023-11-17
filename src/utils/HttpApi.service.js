@@ -73,7 +73,7 @@ import { useSelector } from 'react-redux';
 
     useEffect(() => {
       axios.interceptors.request.use(async (request) => {
-          request.headers['api-key'] = `tppBZBxi4ZyvU3Dw2aN5UlLgFcBJQh4l3DrxmNBdaTrjmyhz2At0yz1G5aAwTzzXu42UpPRA/oXTd/Dnomv6sLJmlEm40soP2OFps/s47kMRLdBK6z1O8TFq/qaDsdn3JgKREqV6DkTztZr1kBp6Gu/SZwN4sjo6H5WlMrhYFQUAGoSSYIie8E52MF1ZjBBq`;
+          request.headers['api-key'] = `Uva2/sLKA0mDpF3ziBkR7zEab5eGHi9AN62v2oHYe6w=`;
 
           if (!request.url?.includes('auth') && dataFromApi?.token) {
             request.headers['token'] = dataFromApi?.token;

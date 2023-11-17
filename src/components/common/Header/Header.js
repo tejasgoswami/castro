@@ -23,7 +23,7 @@ const Header = () => {
             <nav className="main-menu navbar-expand-md navbar-light">
               <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                 <ul className="navigation clearfix">
-                  {dataFromApi.email ? 
+                  {/* {dataFromApi.email ?  */}
                   <>
                   <li className="current"><a href="" onClick={() => {navigate('/')}}>Home</a>
 
@@ -31,10 +31,11 @@ const Header = () => {
                   <li className=""><a href="" onClick={() => {navigate('/blog')}}>Blog</a>
                     
                   </li>
-                  </> : <>
+                  {/* </> : <> */}
                   <li><a href="" onClick={() => {navigate('/login')}}>Login</a></li>
                   <li><a href="" onClick={() => {navigate('/signup')}}>Signup</a></li>
-                  </>}
+                  </>
+                  {/* } */}
                 </ul>
               </div>
             </nav>
